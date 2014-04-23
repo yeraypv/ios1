@@ -23,6 +23,7 @@
 		5D6A327E19080C0F00240551 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6A325A19080C0E00240551 /* UIKit.framework */; };
 		5D6A328619080C0F00240551 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D6A328419080C0F00240551 /* InfoPlist.strings */; };
 		5D6A328819080C0F00240551 /* prueba2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6A328719080C0F00240551 /* prueba2Tests.m */; };
+		5D6A32931908142900240551 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6A32921908142900240551 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		5D6A328319080C0F00240551 /* prueba2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "prueba2Tests-Info.plist"; sourceTree = "<group>"; };
 		5D6A328519080C0F00240551 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5D6A328719080C0F00240551 /* prueba2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = prueba2Tests.m; sourceTree = "<group>"; };
+		5D6A32911908142900240551 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		5D6A32921908142900240551 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				5D6A326519080C0E00240551 /* AppDelegate.h */,
 				5D6A326619080C0E00240551 /* AppDelegate.m */,
 				5D6A326819080C0E00240551 /* Main_iPhone.storyboard */,
+				5D6A32911908142900240551 /* ThirdViewController.h */,
+				5D6A32921908142900240551 /* ThirdViewController.m */,
 				5D6A326B19080C0E00240551 /* Main_iPad.storyboard */,
 				5D6A326E19080C0E00240551 /* FirstViewController.h */,
 				5D6A326F19080C0E00240551 /* FirstViewController.m */,
@@ -259,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D6A327319080C0E00240551 /* SecondViewController.m in Sources */,
+				5D6A32931908142900240551 /* ThirdViewController.m in Sources */,
 				5D6A326719080C0E00240551 /* AppDelegate.m in Sources */,
 				5D6A327019080C0E00240551 /* FirstViewController.m in Sources */,
 				5D6A326319080C0E00240551 /* main.m in Sources */,
