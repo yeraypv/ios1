@@ -24,6 +24,7 @@
 		5D6A328619080C0F00240551 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D6A328419080C0F00240551 /* InfoPlist.strings */; };
 		5D6A328819080C0F00240551 /* prueba2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6A328719080C0F00240551 /* prueba2Tests.m */; };
 		5D6A32931908142900240551 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6A32921908142900240551 /* ThirdViewController.m */; };
+		5D6A32981908180B00240551 /* programming-motherfucker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D6A32971908180B00240551 /* programming-motherfucker.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		5D6A328719080C0F00240551 /* prueba2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = prueba2Tests.m; sourceTree = "<group>"; };
 		5D6A32911908142900240551 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		5D6A32921908142900240551 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		5D6A32971908180B00240551 /* programming-motherfucker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "programming-motherfucker.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		5D6A325C19080C0E00240551 /* prueba2 */ = {
 			isa = PBXGroup;
 			children = (
+				5D6A3296190816E400240551 /* images */,
 				5D6A326519080C0E00240551 /* AppDelegate.h */,
 				5D6A326619080C0E00240551 /* AppDelegate.m */,
 				5D6A326819080C0E00240551 /* Main_iPhone.storyboard */,
@@ -163,6 +166,14 @@
 				5D6A328419080C0F00240551 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D6A3296190816E400240551 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5D6A32971908180B00240551 /* programming-motherfucker.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +254,7 @@
 			files = (
 				5D6A326D19080C0E00240551 /* Main_iPad.storyboard in Resources */,
 				5D6A327519080C0F00240551 /* Images.xcassets in Resources */,
+				5D6A32981908180B00240551 /* programming-motherfucker.jpg in Resources */,
 				5D6A326A19080C0E00240551 /* Main_iPhone.storyboard in Resources */,
 				5D6A326119080C0E00240551 /* InfoPlist.strings in Resources */,
 			);
